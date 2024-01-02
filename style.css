@@ -1,0 +1,71 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+ul h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.conteiner {
+    margin: 0 auto;
+    width: 1200px;
+}
+/* header */
+header {
+    background-color: rgb(224, 101, 79);
+    padding: 10px 0;
+}
+.header-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+}
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+.header-link {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+/* Головна секція */
+.hero {
+    padding: 50px 0;
+}
+.header-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.hero-img {
+    width: 550px;
+}
+.hero-title {
+    font-size: 48px;
+     color: rgb(113, 27, 12);
+     font-weight: 700;
+     margin-bottom: 48px;
+}
+.hero-text {
+    font-size: 22px;
+}
+/* Ітгрідієнти для тіста  */
+.dough {
+    background-color: rgb(255, 167, 123);
+}
+.dough-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
