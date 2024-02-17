@@ -15,28 +15,31 @@ a {
 }
 /* header */
 header {
-    background-color: rgb(216, 113, 95);
+    background-color: rgb(221, 103, 82);
     padding: 10px 0;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     width: 120px;
 }
+
 .header-list {
     display: flex;
     gap: 50px;
 }
+
 .header-link {
-    display: flex;
-    gap: 50px;
     font-size: 24px;
     font-weight: 700;
     color: white;
 }
+ 
 /* Головна секція */
 .hero {
     padding: 50px 0;
