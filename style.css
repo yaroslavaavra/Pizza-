@@ -125,10 +125,14 @@ header {
 }
 .filling-item {
     font-size: 22px;
+    list-style: disc;
+    margin-left: 30px;
 }
 /* Інгрідієнти моєї улюбленної піцци */
 .ingredients {
     background-color: rgb(255, 167, 123);
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .ingredients-container {
     display: flex;
@@ -140,13 +144,16 @@ header {
     font-size: 48px;
     color: rgb(113, 27, 12);
     font-weight: 700;
-    margin-bottom: 48px;
+    padding-bottom: 15px;
 }
 .ingredients-text {
-    font-size: x-large;
+    font-size: 22px;
+    padding-top: 15px;
 }
 .ingredients-item {
     font-size: 22px;
+    list-style: disc;
+    margin-left: 30px;
 }
 .ingredients-img {
     width: 550px;
@@ -160,18 +167,14 @@ header {
 }
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
 }
-.footer-list {
-    display: flex;
-    gap: 50px;
-}
+
 .footer-img{
-    display: flex;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
+    width: 30px;
+
 }
 .footer-text {
     font-size: 20px;
